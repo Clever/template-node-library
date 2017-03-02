@@ -1,5 +1,5 @@
 {
-  "name": "{{.AppName}}",
+  "name": "TODO",
   "version": "0.0.1",
   "description": "{{.Description}}",
   "main": "dist/index.js",

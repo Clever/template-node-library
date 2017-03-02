@@ -6,6 +6,8 @@ Owned by {{.TeamName}}
 
 ## Developing
 
+- update package.json with your library name (`@clever/<name>` if private)
+
 - `npm install`
 
 - Write the library in the `lib` folder

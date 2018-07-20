@@ -1,11 +1,18 @@
 machine:
   post:
   - cd $HOME && git clone --depth 1 -v git@github.com:clever/ci-scripts.git && cd ci-scripts && git show --oneline -s
-  services:
-  - docker
+  node:
+    version: 8.11.3
 compile:
   override:
+  - npm install
   - make build
 test:
   override:
   - make test
+deployment:
+  all:
+    branch: master
+    owner: Clever
+    commands:
+    - $HOME/ci-scripts/circleci/npm-publish $NPM_TOKEN .

@@ -27,7 +27,7 @@
     "@types/jest": "^18.1.1",
     "@types/node": "^12.12.24",
     "babel-eslint": "^7.1.1",
-    "eslint": "3.14.1",
+    "eslint": "7.6.0",
     "eslint-config-airbnb": "^5.0.1",
     "eslint-plugin-react": "^3.16.1",
     "jest": "^18.1.0",

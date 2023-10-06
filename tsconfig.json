@@ -9,7 +9,8 @@
     "strict": true,
     "skipLibCheck": true,
     "target": "ES2022",
-    "typeRoots": ["node_modules/@types", "types"]
+    "typeRoots": ["node_modules/@types", "types"],
+    "useUnknownInCatchVariables": false
   },
   "exclude": ["jest", "node_modules"]
 }
